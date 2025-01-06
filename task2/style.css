@@ -2,41 +2,91 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+    font-family: sans-serif;
+    
 }
-.home{
+html,body{
+    overflow-x: hidden;
+}
+.home, .offer{
     display: flex;
     width: 100vw;
     height: 100vh;
 }
 .home-left-part{
+    width: 50%;
+    padding-left: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .home-left-part img{
-    width: 650px;
+    width: 580px;
 }
 .home-right-part{
+    width: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .home-right-containt{
-    padding-left: 200px;
+    padding-left: 60px;
+    padding-right: 50px;
 }
 .home-right-containt h1{
-    line-height: 45px;
-    font-size: 35px;
+    line-height: 50px;
+    font-size: 40px;
 }
 .home-right-containt p{
     margin-top: 25px;
-    line-height: 22px;
+    line-height: 24px;
+}
+.home-right-containt p,ul{
+    font-size: 18px;
 }
 .home-right-containt ul{
     padding-left: 50px;
     margin-top: 25px;
     line-height: 22px;
 }
-.home-right-containt button{
+.home-right-containt button, .offer-left-containt button{
     margin-top: 30px;
+    padding: 10px 20px;
+    color: white;
+    background-color: rgb(255, 0, 0);
+}
+
+
+.offer{
+    background-color: rgb(40, 134, 205);
+}
+.offer-left-part{
+    width: 45%;
+    padding-left: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: orange; */
+}
+.offer-left-containt span{
+    font-size: 30px;
+}
+
+.offer-left-containt h1{
+    line-height: 70px;
+    font-size: 60px;
+    margin-top: 20px;
+    color: white;
+}
+.offer-left-containt span{
+    color: white;
+}
+.offer-right-part{
+    width: 55%;
+    display: flex;
+    align-items: center;
+    /* background-color: red; */
+}
+.offer-right-part img{
+    width: 750px;
 }
