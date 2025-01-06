@@ -21,7 +21,7 @@ html,body{
     justify-content: center;
 }
 .home-left-part img{
-    width: 580px;
+    width: 800px;
 }
 .home-right-part{
     width: 50%;
@@ -34,8 +34,9 @@ html,body{
     padding-right: 50px;
 }
 .home-right-containt h1{
-    line-height: 50px;
-    font-size: 40px;
+    line-height: 55px;
+    font-size: 45px;
+    letter-spacing: 2px;
 }
 .home-right-containt p{
     margin-top: 25px;
@@ -88,5 +89,5 @@ html,body{
     /* background-color: red; */
 }
 .offer-right-part img{
-    width: 750px;
+    width: 700px;
 }
