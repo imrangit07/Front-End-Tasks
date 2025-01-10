@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.rapper {
+    height: 100vh;
+    background-color: rgb(153, 99, 202);
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px auto 200px;
+    gap: 30px;
+    
+}
+
+.ch {
+    background-color: blue;
+    border: 4px solid black;
+    color: wheat;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 5px 3px 5px black;
+   
+}
